@@ -56,3 +56,10 @@ This project focuses on web automation, data extraction, and handling dynamic we
 ## Notes
 - Crawling speed depends on network and website response
 - WebDriver version must match the installed browser version
+
+---
+
+## Screenshots
+
+### Excel Output
+![Excel](assets/images/result.png)
