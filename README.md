@@ -62,4 +62,4 @@ This project focuses on web automation, data extraction, and handling dynamic we
 ## Screenshots
 
 ### Excel Output
-![Excel](assets/images/result.png)
+![Excel](tgdd-product-data-collector/assets/images/result.png)
