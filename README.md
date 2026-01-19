@@ -47,7 +47,7 @@ This project was developed as a personal/academic project to practice desktop ap
 ## Screenshots
 
 ### Login Screen
-![Login Screen](login-screen.png)
+![Login Screen](images/login_screen.png)
 
 ### Supplier Management
 | Add Supplier              | Edit Supplier             | Delete Supplier           |
