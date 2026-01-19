@@ -47,12 +47,12 @@ This project was developed as a personal/academic project to practice desktop ap
 ## Screenshots
 
 ### Login Screen
-![Login Screen](images/login-screen.png)
+![Login Screen](login-screen.png)
 
 ### Supplier Management
 | Add Supplier              | Edit Supplier             | Delete Supplier           |
 |---------------------------|---------------------------|---------------------------|
-| ![Add Supplier](../images/add_supplier.png) | ![Edit Supplier](images/edit_supplier.png) | ![Delete Supplier](images/delete_supplier.png) |
+| ![Add Supplier](images/add_supplier.png) | ![Edit Supplier](images/edit_supplier.png) | ![Delete Supplier](images/delete_supplier.png) |
 
 ### Import Invoice (Import Details)
 ![Import Invoice Detail](images/import_invoice_detail.png)
