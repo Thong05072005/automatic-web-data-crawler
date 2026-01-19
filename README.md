@@ -1,63 +1,65 @@
-# WinForms Sales Management Application
+# Automatic Web Data Crawler
 
-A desktop application built with **C# WinForms** for managing laptop sales, including product management, sales invoicing, import invoicing (stock receiving), supplier management, customer management, and basic sales statistics & reports.
-
-This project was developed as a personal/academic project to practice desktop application development and SQL Server database integration.
-
----
-
-## Author & Contributions
-**Phan Văn** – **Main Developer / Student**
-
-- Designed and implemented the entire user interface (UI) using WinForms
-- Built the SQL Server database schema (tables for products, customers, suppliers, sales invoices, import invoices, invoice details, inventory, etc.)
-- Developed core modules:
-  - **Supplier Management**: Add, edit, delete, and view supplier list
-  - **Import Invoices (Stock Receiving / Purchase Orders)**: Create import invoices from suppliers, add import details (products, quantities, prices), automatically update inventory stock levels
-  - **Statistics & Reports**:
-    - Customer statistics (sales by customer, purchase volume)
-    - Product statistics (sales quantity, remaining stock, best-selling products)
-    - Profit statistics (revenue, cost of goods, profit over time periods)
-- Integrated data access using **ADO.NET** (SqlConnection, SqlCommand, SqlDataAdapter, etc.)
-- Captured and added all screenshot images to demonstrate the features
+A Python-based automation tool for crawling product data from e-commerce websites and exporting the results to Excel files.  
+This project focuses on web automation, data extraction, and handling dynamic web content.
 
 ---
 
 ## Features
-- Manage laptop products (add, update, delete)
-- Supplier management (add, edit, delete suppliers)
-- Customer management and sales invoice creation
-- Import invoice management (receive goods from suppliers and update stock)
-- Basic statistics and reports:
-  - By customer
-  - By product
-  - Profit overview
-- SQL Server database integration
+- Automatically crawl product information from web pages
+- Extract data such as product name, price, specifications, and category
+- Handle dynamic content (e.g. "Load more" button)
+- Export collected data to Excel (.xlsx)
+- Support scheduled or repeated crawling runs
 
 ---
 
 ## Technologies Used
-- **Language**: C#
-- **UI Framework**: Windows Forms (.NET Framework)
-- **Database**: SQL Server
-- **Data Access**: ADO.NET
+- Python
+- Selenium
+- BeautifulSoup
+- Pandas
+- Chrome WebDriver
+
+---
+
+## Data Source
+- Target website: Thegioididong.com (for learning purposes)
+- Data includes publicly available product information
+
+> **Note:** This project is for educational purposes only.
+
+---
+
+## How It Works
+1. Selenium opens the browser and navigates to the target page
+2. Dynamic content is loaded automatically
+3. BeautifulSoup parses the HTML content
+4. Extracted data is processed using Pandas
+5. Final results are exported to an Excel file
+
+---
+
+## Output
+- Excel file containing structured product data
+- Columns: product name, price, specifications, category, etc.
+
+---
+
+## Project Purpose
+- Practice web automation with Selenium
+- Learn web scraping workflows
+- Improve data processing and export using Pandas
+
+---
+
+## Notes
+- Crawling speed depends on network and website response
+- WebDriver version must match the installed browser version
 
 ---
 
 ## Screenshots
 
-### Login Screen
-![Login Screen](images/login_screen.png)
-
-### Supplier Management
-| Add Supplier              | Edit Supplier             | Delete Supplier           |
-|---------------------------|---------------------------|---------------------------|
-| ![Add Supplier](images/add_supplier.png) | ![Edit Supplier](images/edit_supplier.png) | ![Delete Supplier](images/delete_supplier.png) |
-
-### Import Invoice (Import Details)
-![Import Invoice Detail](images/import_invoice_detail.png)
-
-### Statistics & Reports
-| Customer Statistics       | Product Statistics        | Profit Statistics         |
-|---------------------------|---------------------------|---------------------------|
-| ![Statistics Customer](images/statistics_customer.png) | ![Statistics Product](images/statistics_product.png) | ![Statistics Profit](images/statistics_profit.png) |
+### Excel Output
+![Excel](tgdd-product-data-collector/assets/images/result.png)
